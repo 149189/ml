@@ -14,7 +14,7 @@ train_path = os.path.join(dataset_path, "train")
 test_path = os.path.join(dataset_path, "test")
 
 
-# Step 1: Preprocessing Training, Validation, and Test Data
+
 def preprocess_data(train_path, test_path, image_size=(224, 224)):
     datagen = ImageDataGenerator(
         rescale=1./255,
